@@ -1,0 +1,115 @@
+:root{
+      --bgColor:#006d77;
+      --frColor:#83c5be;
+      --seColor:#edf6f9;
+}
+body{
+      background: var(--bgColor);
+      /* overflow: hidden; */
+}
+/* navbar section */
+.navbar{
+      width: auto;
+      height: 40px;
+      margin: 0;
+      background:transparent;
+      padding: 5px;
+      margin-bottom: 20px;
+}
+.heading{
+      margin-top: -7px;
+      font-size: 32px;
+      color: var(--seColor);
+      text-align: center;
+}
+/* Search section */
+.S-Hero{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+.s-Input{
+      width: 45vmin;
+      height: 4vmin;
+      border-radius: 10px;
+      font-size: 24px;
+      color: var(--bgColor);
+}
+button, .btn{
+      width: 20vmin;
+      margin-left: 20px;
+     color: var(--bgColor);
+     background: var(--seColor);
+      font-size: 16px;
+      text-transform: capitalize;
+      border-radius: 10px;
+}
+/* Hero Section */
+img{
+      width: 30%;
+      border-radius: 30%;
+}
+.card{
+      display: flex;
+      flex-direction: row;
+     gap:2%;
+     margin-top: 2%;
+     margin-left: 2%;
+     width: 50%;
+}
+.card:hover{
+      transform: translateY(-10px);
+}
+.cardSection{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      /* flex-wrap: wrap; */
+}
+.title{
+      font-size: 24px;
+      color: var(--seColor);
+      font-family: 'Segoe UI';
+}
+.name, .dob{
+      font-size: 16px;
+      color:var(--seColor);
+}
+
+.link{
+      text-decoration: none;
+      color: #edf6f9;
+      background: none;
+      font-size: 22px;
+}
+.link:hover{
+ transform: translateY(-5px);
+}
+button:hover{
+ transform: translateY(-5px);     
+}
+.hGrid{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10%;
+}
+.textD{
+      margin-left: 5%;
+}
+.heropic{
+      width: 200px;
+}
+
+/* footer */
+.footer{
+      color: #edf6f9;
+      font-size: 18px;
+      text-align: center;
+      margin-top: 12%;
+}
+.htext{
+      font-size: 16px;
+      color: #edf6f9;
+      text-align: center;
+}
