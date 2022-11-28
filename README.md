@@ -11,14 +11,6 @@ npm start
 ```
 The local server adderss is 
 ```
- http://localhost:3001
- ```
- To activate the JSON server 
- ```
- npm run server
- ```
- To see the data inform of JSON format 
- ```
- http://localhost:3000/tasks
+ http://localhost:3000
  ```
  
