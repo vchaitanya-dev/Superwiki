@@ -2,8 +2,8 @@ import React from 'react'
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Herodetails from './Pages/Herodetails'
-import Footer from './Section/Footer'
-import Navbar from './Section/Navbar'
+import Footer from '../Components/Footer'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
