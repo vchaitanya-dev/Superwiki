@@ -8,7 +8,7 @@ function Search() {
   const handleChange = (e) => setText(e.target.value)
 const onSubmit  = () =>  {
   axios
-.get(`https://www.superheroapi.com/api.php/164422519609973/search/${text}`)
+.get(`https://www.superheroapi.com/api.php/[apiToken]/search/${text}`)
 .then((res) =>  
 dispatch({type:'SET_HERO', payload:res.data.results})
 )
